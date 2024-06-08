@@ -1,7 +1,8 @@
 function sum(a,b)
 {
-    console.log(a+b) ;
-    console.log(a*b) ;
+    return a+b ;
 }
-sum(4,5)
-sum(8,2)
+ result = sum(4,5)
+ ans = sum(8,2)
+ console.log("add1 :",result)
+ console.log("add2 :",ans)
