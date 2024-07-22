@@ -8,3 +8,7 @@ console.log(a[5])
 console.log(a[6]) 
 //index started from zero 
 console.log("Length of string = ",a.length) 
+let b="Singhal"
+console.log(b.toUpperCase())
+console.log(b.toLowerCase())
+console.log(b.length)
