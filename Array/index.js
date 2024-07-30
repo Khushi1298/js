@@ -10,6 +10,7 @@ arr[0]=234 ;
 console.log(arr) ;
 console.log(arr.toString())
 console.log(arr.join(" and "))
+console.log(arr.pop())//remove last ele
 console.log(arr.pop(arr[4]))
 console.log(arr.pop(arr[3]))
 console.log(arr.push(8))
