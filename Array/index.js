@@ -15,5 +15,8 @@ console.log(arr.pop(arr[4]))
 console.log(arr.pop(arr[3]))
 console.log(arr.push(8))
 console.log(arr) ;
-console.log(arr.push("khushi"))
+arr.push("khushi")
 console.log(arr) ;
+delete(arr[2])
+console.log(arr);
+console.log(arr.length) ;
