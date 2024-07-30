@@ -12,3 +12,8 @@ for(let i=0;i<a.length;i++)
         b.push(ele**3)
     }
 console.log(b)
+let c=a.map((e)=> //call back func
+{
+    return e*3 ;
+})
+console.log(c) 
