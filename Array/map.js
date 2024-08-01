@@ -17,3 +17,13 @@ let c=a.map((e)=> //call back func
     return e*3 ;
 })
 console.log(c) 
+const greaterThanSeven=(e)=> {
+        if(e>7)
+        {
+            return true 
+        }
+        return false 
+}
+console.log(a.filter(greaterThanSeven))
+console.log(b.filter(greaterThanSeven))
+console.log(c.filter(greaterThanSeven))
