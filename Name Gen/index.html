@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Name Generator</title>
+</head>
+<body>
+    <script>
+        let rdm ; 
+        let first, second , third ;
+
+        //Generate first word
+        rdm =Math.random() ;
+        if(rdm<0.33)//0 0.33 0.66 1
+        {
+                first="crazy" ;
+        }
+        else if(rdm>=0.33 && rdm<0.66)
+        {
+                first="Amaze"
+        }
+        else 
+        {
+            first="fire"
+        }
+
+        //Generate second word
+        rdm =Math.random() ;
+        if(rdm<0.33)//0 0.33 0.66 1
+        {
+                second="Engine" ;
+        }
+        else if(rdm>=0.33 && rdm<0.66)
+        {
+            second="Food"
+        }
+        else 
+        {
+            second="Garment"
+        }
+        
+        //Generate third word
+        rdm =Math.random() ;
+        if(rdm<0.33)//0 0.33 0.66 1
+        {
+            third="Limited" ;
+        }
+        else if(rdm>=0.33 && rdm<0.66)
+        {
+            third="Hub"
+        }
+        else 
+        {
+            third="com"
+        }
+        console.log(`${first} ${second} ${third}`)
+    </script>
+</body>
+</html>
