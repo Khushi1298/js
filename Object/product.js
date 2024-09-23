@@ -1,4 +1,4 @@
-let product ={
+var product ={
     Item:"Pen" ,
     Brand:"Doms",
     Type:"Ball Pen",
@@ -9,4 +9,6 @@ let product ={
 };
 console.log(product)
 console.log(product["Brand"])
+console.log(product["Offer"])
+product["Offer"] = 5; 
 console.log(product["Offer"])
