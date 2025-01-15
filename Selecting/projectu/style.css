@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&dispaly=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #333;
+}
+.navigation
+{
+    position: relative;
+    width: 400px;
+    height: 80px;
+}
+.navigation ul
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+}
+.navigation ul li
+{
+    position: relative;
+    list-style: none;
+    width: 80px;
+    height: 80px;
+    z-index: 1;
+}
+.navigation ul li a
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+}
+.navigation ul li a .icon
+{
+    position: relative;
+    display: block;
+    line-height: 85px;
+    text-align: center;
+    transition: 0.5s;
+    font-size: 2em;
+}
+.navigation ul li.active a .icon
+{
+    font-size: 1.5em;
+    transform: translateY(-8px);
+
+}
+.navigation ul li a .text
+{
+    position: absolute;
+    font-size: 0.8em;
+    bottom: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    transition: 0.25s;
+    letter-spacing: 0.lem;
+    transform: scale(0);
+}
+.navigation ul li.active a .text
+{
+transform: scale(1);
+}
+.navigtion ul .indicator
+{
+    position: absolute;
+    left: 0;
+    width: 80px;
+    background: #222;
+    border-radius: 10px;
+    transition: 0.5s;
+}
