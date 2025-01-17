@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Synchronous code is executed line by line, in the order
+        console.log("Harry is Hacker");
+        console.log("Rohan is also hacker");
+        console.log("I am dev");
+        //onous code is executed independently of the main program flow. 
+        let b=setInterval( ()=>{
+            console.log("in the timing ");
+        },10);
+         // Stop the interval after 2 seconds
+         setTimeout(() => {
+            clearInterval(b); // Clear the interval
+            console.log("Interval cleared");
+        }, 3000);
+
+        console.log("ending");
+    </script>
+</body>
+</html>
